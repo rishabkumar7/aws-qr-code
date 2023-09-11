@@ -3,8 +3,8 @@
 import React, { FC, useState } from 'react';
 import axios from 'axios';
 import Footer from './footer';
-//import styles from './page.module.css';
-import styles from './qr-code-home.module.css';
+import styles from './page.module.css';
+//import styles from './qr-code-home.module.css';
 
 
 
@@ -24,7 +24,9 @@ const GenerateQRCode: FC = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>QR Code Generator</h1>
+      <div className={styles.light}>
+      <h1 className={styles.heading}>URL 2 QR</h1>
+      <p className={styles.description}>Generate QR Codes for your URLs</p>
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
           className={styles.input}
@@ -37,6 +39,7 @@ const GenerateQRCode: FC = () => {
         <button className={styles.button} type="submit">Generate QR Code</button>
       </form>
       {qrCodeUrl && <img className={styles.img} src={qrCodeUrl} alt="Generated QR Code" />}
+    </div>
     </div>
   );
 };
