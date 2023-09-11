@@ -9,7 +9,8 @@ s3 = boto3.client('s3')
 
 def lambda_handler(event, context):
     # Parse the URL from the event
-    url = event['url']
+    body = json.loads(event['body'])
+    url = body['url']
     
     # Generate QR code
     img = qrcode.make(url)
