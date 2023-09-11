@@ -2,6 +2,7 @@
 
 import React, { FC, useState } from 'react';
 import axios from 'axios';
+import Footer from './footer';
 //import styles from './page.module.css';
 import styles from './qr-code-home.module.css';
 
