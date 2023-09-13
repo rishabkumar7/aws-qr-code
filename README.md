@@ -8,14 +8,14 @@ Front-end is built using NextJS. Nothing fancy,it's a single-page app that use t
 
 ## API
 
-- Send a POST Request to the Lambda Function URL - https://2udftdntvwsjrfgu7hyef475fq0eiezh.lambda-url.ca-central-1.on.aws/
+- Send a POST Request to the Lambda Function URL - [https://api-url2qr.rishab.cloud](https://api-url2qr.rishab.cloud)
 - Include the url you want QR Code for in the JSON body of your request: `{"url": "https://example.com"}`
 
 ```bash
 curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"url": "https://example.com"}' \
-  https://2udftdntvwsjrfgu7hyef475fq0eiezh.lambda-url.ca-central-1.on.aws/
+  https://api-url2qr.rishab.cloud
 ```
 
 ## Architecture
