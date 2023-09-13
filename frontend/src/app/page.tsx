@@ -4,6 +4,8 @@ import React, { FC, useState } from 'react';
 import axios from 'axios';
 import Footer from './footer';
 import styles from './page.module.css';
+import Link from 'next/link';
+import SocialIcons from './SocialIcons';
 //import styles from './qr-code-home.module.css';
 
 
@@ -24,6 +26,7 @@ const GenerateQRCode: FC = () => {
 
   return (
     <div className={styles.container}>
+      <SocialIcons />
       <div className={styles.light}>
       <h1 className={styles.heading}>URL 2 QR</h1>
       <p className={styles.description}>Generate QR Codes for your URLs</p>
@@ -39,7 +42,13 @@ const GenerateQRCode: FC = () => {
         <button className={styles.button} type="submit">Generate QR Code</button>
       </form>
       {qrCodeUrl && <img className={styles.img} src={qrCodeUrl} alt="Generated QR Code" />}
+      <div className={styles.container}>
+        <Link href="/docs">
+          <button className={styles.buttonlink}>API Documentation</button>
+          </Link>
+      </div>
     </div>
+    <Footer />
     </div>
   );
 };

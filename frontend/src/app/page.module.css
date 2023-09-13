@@ -233,6 +233,8 @@
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
+  min-height: 60vh;
+  padding-bottom: '50px'
 }
 
 .heading {
@@ -273,4 +275,17 @@
   margin-top: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.buttonlink {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.buttonlink:hover {
+  background-color: #555;
 }
