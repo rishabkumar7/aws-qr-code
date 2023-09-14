@@ -4,7 +4,7 @@ Serverless QR Code Generator built with AWS Lambda and S3.
 
 ## Web App
 
-Front-end is built using NextJS. Nothing fancy,it's a single-page app that use the AWS Lambda Function to generate the QR Code for requested URL.
+Front-end is built using NextJS. Nothing fancy, it's a web app that uses the AWS Lambda Function to generate the QR Code for requested URL.
 
 ## API
 
@@ -37,4 +37,5 @@ Architecture as of now:
 
 ## Author
 
-[Rishab Kumar](https://twitter.com/rishabk7)
+Twitter - [Rishab Kumar](https://twitter.com/rishabk7)
+LinkedIn - [Rishab Kumar](https://linkedin.com/in/rishabkumar7)
