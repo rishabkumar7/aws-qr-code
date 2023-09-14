@@ -37,5 +37,5 @@ Architecture as of now:
 
 ## Author
 
-Twitter - [Rishab Kumar](https://twitter.com/rishabk7)
-LinkedIn - [Rishab Kumar](https://linkedin.com/in/rishabkumar7)
+- Twitter - [Rishab Kumar](https://twitter.com/rishabk7)
+- LinkedIn - [Rishab Kumar](https://linkedin.com/in/rishabkumar7)
